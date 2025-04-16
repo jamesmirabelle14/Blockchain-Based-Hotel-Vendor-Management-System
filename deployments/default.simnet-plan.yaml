@@ -50,6 +50,11 @@ plan:
     - id: 0
       transactions:
         - emulated-contract-publish:
+            contract-name: service-level
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/service-level.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: supplier-verification
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/supplier-verification.clar
